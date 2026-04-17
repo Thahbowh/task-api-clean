@@ -5,8 +5,6 @@ const { register, login } = require('../controllers/auth.controller');
 router.post('/register', (req, res) => {
   res.json({ message: "Register works" });
 });
-catch (err) {
-  console.error("LOGIN ERROR:", err);
-  return res.status(500).json({ error: err.message });
-});
+router.post('/login', login);
+
 module.exports = router;
