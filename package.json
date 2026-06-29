@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "backend",
-=======
-  "name": "task-api-clean",
->>>>>>> 3211270e5ae41b199dbf9026af0f5794b3af0e13
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-=======
-    "start": "node index.js",
->>>>>>> 3211270e5ae41b199dbf9026af0f5794b3af0e13
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,7 +11,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-<<<<<<< HEAD
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
@@ -30,14 +21,5 @@
     "mysql2": "^3.22.1",
     "nodemailer": "^8.0.8",
     "selfsigned": "^5.5.0"
-=======
-    "@prisma/client": "^6.19.3",
-    "bcryptjs": "^3.0.3",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "prisma": "^6.19.3",
-    "zod": "^4.3.6"
->>>>>>> 3211270e5ae41b199dbf9026af0f5794b3af0e13
   }
 }
