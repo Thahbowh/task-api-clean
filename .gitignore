@@ -1,6 +1,13 @@
 node_modules
+<<<<<<< HEAD
 .env
 dist
 build
 key.pem
 cert.pem
+=======
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+>>>>>>> 3211270e5ae41b199dbf9026af0f5794b3af0e13
